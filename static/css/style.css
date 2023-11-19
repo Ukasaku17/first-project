@@ -1,0 +1,53 @@
+
+
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #ffffff; /* Цвет фона веб-страницы */
+    color: #000000; /* Цвет основного текста */ 
+}
+h1 {
+    color: #00a800; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: blue;
+        margin-left: 0;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: #5988ff;
+        margin-left: 200px;
+    }
+}
+
+h2 {
+    color: #5988ff; /* Цвет загаловка */
+    font-family: 'Inter', serif; /* Семейство шрифтов*/
+}
+
+
+p:hover{
+    animation: p-color 2s infinite;
+}
+
+@keyframes p-color {
+    0% {
+        color: green;
+    
+    }
+    100%{
+        color: red;
+    }
+}
+
+
+
+
+
